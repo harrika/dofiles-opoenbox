@@ -1,0 +1,2521 @@
+2020-01-07 22:34:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:48 ERROR SettingsIo:206 - Properties file located, but failed to read from it
+java.nio.file.NoSuchFileException: /home/harrika/.config/tmc-cli/properties.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:155)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2838)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.getPropertiesFromJson(SettingsIo.java:203)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadPropertiesFrom(SettingsIo.java:96)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadProperties(SettingsIo.java:91)
+	at fi.helsinki.cs.tmc.cli.core.CliContext.<init>(CliContext.java:40)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:224)
+2020-01-07 22:34:48 ERROR SettingsIo:206 - Properties file located, but failed to read from it
+java.nio.file.NoSuchFileException: /home/harrika/.config/tmc-cli/properties.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:155)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2838)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.getPropertiesFromJson(SettingsIo.java:203)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadPropertiesFrom(SettingsIo.java:96)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadProperties(SettingsIo.java:91)
+	at fi.helsinki.cs.tmc.cli.analytics.TimeTracker.anHourHasPassedSinceLastSubmit(TimeTracker.java:24)
+	at fi.helsinki.cs.tmc.cli.Application.sendAnalytics(Application.java:109)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:100)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:34:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:49 ERROR SettingsIo:206 - Properties file located, but failed to read from it
+java.nio.file.NoSuchFileException: /home/harrika/.config/tmc-cli/properties.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:155)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2838)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.getPropertiesFromJson(SettingsIo.java:203)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadPropertiesFrom(SettingsIo.java:96)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadProperties(SettingsIo.java:91)
+	at fi.helsinki.cs.tmc.cli.core.CliContext.<init>(CliContext.java:40)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:224)
+2020-01-07 22:34:49 ERROR SettingsIo:206 - Properties file located, but failed to read from it
+java.nio.file.NoSuchFileException: /home/harrika/.config/tmc-cli/properties.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:155)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2838)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.getPropertiesFromJson(SettingsIo.java:203)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadPropertiesFrom(SettingsIo.java:96)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadProperties(SettingsIo.java:91)
+	at fi.helsinki.cs.tmc.cli.analytics.TimeTracker.anHourHasPassedSinceLastSubmit(TimeTracker.java:24)
+	at fi.helsinki.cs.tmc.cli.Application.sendAnalytics(Application.java:109)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:100)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:34:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:34:54 ERROR SettingsIo:206 - Properties file located, but failed to read from it
+java.nio.file.NoSuchFileException: /home/harrika/.config/tmc-cli/properties.json
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:370)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:421)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:155)
+	at java.base/java.nio.file.Files.newBufferedReader(Files.java:2838)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.getPropertiesFromJson(SettingsIo.java:203)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadPropertiesFrom(SettingsIo.java:96)
+	at fi.helsinki.cs.tmc.cli.backend.SettingsIo.loadProperties(SettingsIo.java:91)
+	at fi.helsinki.cs.tmc.cli.core.CliContext.<init>(CliContext.java:40)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:224)
+2020-01-07 22:35:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:35:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:35:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:35:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:42 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:36:42 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:36:45 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:36:45 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:36:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:36:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:37:10 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:37:10 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:37:13 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:37:13 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:37:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:37:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:37:31 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:37:31 INFO  TmcCore:92 - Creating new AuthenticateUser command
+2020-01-07 22:37:34 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:37:34 INFO  Oauth:75 - Fetching new oauth token from server
+2020-01-07 22:37:38 INFO  TmcCore:87 - Creating new GetOrganizations command
+2020-01-07 22:37:38 INFO  TmcCore:87 - Creating new GetOrganizations command
+2020-01-07 22:37:55 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:37:55 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:38:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:38:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:38:04 INFO  TmcCore:115 - Creating new ListCourses command
+2020-01-07 22:38:04 INFO  TmcCore:115 - Creating new ListCourses command
+2020-01-07 22:38:04 INFO  ListCourses:39 - Retrieving course list
+2020-01-07 22:38:04 INFO  ListCourses:39 - Retrieving course list
+2020-01-07 22:38:07 DEBUG ListCourses:46 - Successfully fetched course list
+2020-01-07 22:38:07 DEBUG ListCourses:46 - Successfully fetched course list
+2020-01-07 22:38:07 INFO  TmcCore:110 - Creating new GetCourseDetails command
+2020-01-07 22:38:07 INFO  TmcCore:110 - Creating new GetCourseDetails command
+2020-01-07 22:38:07 INFO  GetCourseDetails:40 - Fetching course details
+2020-01-07 22:38:07 INFO  GetCourseDetails:40 - Fetching course details
+2020-01-07 22:38:10 INFO  GetCourseDetails:46 - Successfully got course details
+2020-01-07 22:38:10 INFO  GetCourseDetails:46 - Successfully got course details
+2020-01-07 22:38:10 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:38:10 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:38:10 INFO  TmcCore:104 - Creating new DownloadOrUpdateExercises command
+2020-01-07 22:38:10 INFO  TmcCore:104 - Creating new DownloadOrUpdateExercises command
+2020-01-07 22:38:10 INFO  DownloadOrUpdateExercises:55 - Downloading/updating 19 exercises
+2020-01-07 22:38:10 INFO  DownloadOrUpdateExercises:55 - Downloading/updating 19 exercises
+2020-01-07 22:38:10 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e02_compliment
+2020-01-07 22:38:10 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e02_compliment
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:12 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:38:12 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:38:12 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-15524565069368869429.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:12 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e03_multiplication
+2020-01-07 22:38:12 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e03_multiplication
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:14 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e03_multiplication
+2020-01-07 22:38:14 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e03_multiplication
+2020-01-07 22:38:14 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-11833518757033129365.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e03_multiplication
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:14 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e04_multiplication_table
+2020-01-07 22:38:14 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e04_multiplication_table
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:16 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-07 22:38:16 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-07 22:38:16 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-6404572516935962890.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:16 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e05_two_dice
+2020-01-07 22:38:16 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e05_two_dice
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:18 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e05_two_dice
+2020-01-07 22:38:18 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e05_two_dice
+2020-01-07 22:38:18 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-8183563777901942818.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e05_two_dice
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:18 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e06_triple_square
+2020-01-07 22:38:18 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e06_triple_square
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:20 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e06_triple_square
+2020-01-07 22:38:20 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e06_triple_square
+2020-01-07 22:38:20 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-17208085472213783824.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e06_triple_square
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:20 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e07_areas_of_shapes
+2020-01-07 22:38:20 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e07_areas_of_shapes
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:22 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e07_areas_of_shapes
+2020-01-07 22:38:22 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e07_areas_of_shapes
+2020-01-07 22:38:22 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-8458206251810508303.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e07_areas_of_shapes
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:22 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e08_solve_quadratic
+2020-01-07 22:38:22 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e08_solve_quadratic
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:24 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e08_solve_quadratic
+2020-01-07 22:38:24 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e08_solve_quadratic
+2020-01-07 22:38:24 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-207021523877590931.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e08_solve_quadratic
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:24 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e09_merge
+2020-01-07 22:38:24 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e09_merge
+2020-01-07 22:38:25 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:25 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:25 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:25 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:25 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:25 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:25 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e09_merge
+2020-01-07 22:38:25 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e09_merge
+2020-01-07 22:38:25 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-7206209916346706020.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e09_merge
+2020-01-07 22:38:26 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:26 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:26 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:26 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:26 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e10_detect_ranges
+2020-01-07 22:38:26 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e10_detect_ranges
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:27 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e10_detect_ranges
+2020-01-07 22:38:27 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e10_detect_ranges
+2020-01-07 22:38:27 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-13575193608815112882.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e10_detect_ranges
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:27 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e11_interleave
+2020-01-07 22:38:27 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e11_interleave
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:29 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e11_interleave
+2020-01-07 22:38:29 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e11_interleave
+2020-01-07 22:38:29 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-5912092111038286178.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e11_interleave
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:29 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e12_distinct_characters
+2020-01-07 22:38:29 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e12_distinct_characters
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:31 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e12_distinct_characters
+2020-01-07 22:38:31 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e12_distinct_characters
+2020-01-07 22:38:31 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-17288783134492677866.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e12_distinct_characters
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:31 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e13_reverse_dictionary
+2020-01-07 22:38:31 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e13_reverse_dictionary
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:33 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e13_reverse_dictionary
+2020-01-07 22:38:33 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e13_reverse_dictionary
+2020-01-07 22:38:33 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-10087522699474186547.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e13_reverse_dictionary
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:33 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e14_find_matching
+2020-01-07 22:38:33 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e14_find_matching
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:35 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e14_find_matching
+2020-01-07 22:38:35 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e14_find_matching
+2020-01-07 22:38:35 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-12508604804303799384.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e14_find_matching
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:35 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e15_two_dice_comprehension
+2020-01-07 22:38:35 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e15_two_dice_comprehension
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:37 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e15_two_dice_comprehension
+2020-01-07 22:38:37 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e15_two_dice_comprehension
+2020-01-07 22:38:37 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-12768185932017681561.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e15_two_dice_comprehension
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:37 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e16_transform
+2020-01-07 22:38:37 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e16_transform
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:39 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e16_transform
+2020-01-07 22:38:39 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e16_transform
+2020-01-07 22:38:39 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-14379504980526661187.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e16_transform
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:39 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e17_positive_list
+2020-01-07 22:38:39 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e17_positive_list
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:42 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e17_positive_list
+2020-01-07 22:38:42 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e17_positive_list
+2020-01-07 22:38:42 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-17428104427692952052.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e17_positive_list
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:42 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e18_acronyms
+2020-01-07 22:38:42 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e18_acronyms
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:46 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e18_acronyms
+2020-01-07 22:38:46 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e18_acronyms
+2020-01-07 22:38:46 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-9630247763587135284.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e18_acronyms
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:46 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e19_sum_equation
+2020-01-07 22:38:46 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e19_sum_equation
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:48 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e19_sum_equation
+2020-01-07 22:38:48 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e19_sum_equation
+2020-01-07 22:38:48 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-16636525375230210233.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e19_sum_equation
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:48 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e20_usemodule
+2020-01-07 22:38:48 INFO  ExerciseDownloadingCommand:52 - Downloading exercise part01-e20_usemodule
+2020-01-07 22:38:51 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:51 INFO  ExerciseDownloadingCommand:105 - Extracting project
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:86 - Writing zip to temporary location
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:97 - Zip file successfully written
+2020-01-07 22:38:51 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e20_usemodule
+2020-01-07 22:38:51 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e20_usemodule
+2020-01-07 22:38:51 INFO  StudentFileAwareUnzipper:51 - Unzipping /tmp/tmc-exercise-8316087706570795513.zip to /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e20_usemodule
+2020-01-07 22:38:51 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:51 INFO  ExerciseDownloadingCommand:112 - Successfully extracted project
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:51 DEBUG ExerciseDownloadingCommand:129 - Cleaned up temporary files
+2020-01-07 22:38:51 INFO  DownloadOrUpdateExercises:96 - Successfully downloaded and extracted 19 exercises
+2020-01-07 22:38:51 INFO  DownloadOrUpdateExercises:96 - Successfully downloaded and extracted 19 exercises
+2020-01-07 22:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:49:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:49:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:52:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:52:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:52:20 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:52:20 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:52:20 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:52:20 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:52:20 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:52:20 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:52:20 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:52:20 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:52:20 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:52:20 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:52:20 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:52:20 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:52:20 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:52:20 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:52:20 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:52:20 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:57:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:57:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:57:29 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:57:29 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:57:29 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:57:29 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:57:29 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:57:29 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:57:29 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:57:29 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:57:29 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:57:29 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:57:29 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:57:29 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:57:29 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:57:29 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:57:29 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:57:29 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:59:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:59:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:59:19 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:59:19 INFO  EventStore:27 - Saved {0} events
+2020-01-07 22:59:19 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:59:19 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-07 22:59:19 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:59:19 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-07 22:59:19 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:59:19 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:59:19 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:59:19 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-07 22:59:19 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:59:19 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 22:59:19 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:59:19 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 22:59:19 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:59:19 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-07 22:59:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:59:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:59:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 22:59:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 23:01:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 23:01:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-07 23:01:40 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-07 23:01:40 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-07 23:01:40 INFO  EventStore:27 - Saved {0} events
+2020-01-07 23:01:40 INFO  EventStore:27 - Saved {0} events
+2020-01-07 23:01:40 INFO  TmcCore:149 - Creating new Submit command
+2020-01-07 23:01:40 INFO  TmcCore:149 - Creating new Submit command
+2020-01-07 23:01:40 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e02_compliment
+2020-01-07 23:01:40 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e02_compliment
+2020-01-07 23:01:40 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 23:01:40 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 23:01:40 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 23:01:40 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-07 23:01:40 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 23:01:40 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-07 23:01:40 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-07 23:01:40 WARN  TmcUtil:153 - Failed to submit the exercise
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-07 23:01:42 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-07 23:01:42 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-08 09:21:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:21:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:21:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:21:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:23:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:23:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:23:35 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:23:35 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:23:35 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 09:23:35 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 09:23:35 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 09:23:35 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 09:23:35 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:23:35 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:23:35 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 09:23:35 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 09:23:36 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:23:36 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:23:36 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 09:23:36 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 09:23:36 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 09:23:36 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 09:24:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:24:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:24:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:24:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:34:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:34:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:34:40 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:34:40 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:34:40 INFO  TmcCore:160 - Creating new GetUpdatableExercises command
+2020-01-08 09:34:40 INFO  TmcCore:160 - Creating new GetUpdatableExercises command
+2020-01-08 09:34:40 INFO  GetUpdatableExercises:65 - Looking for updatedable exercises
+2020-01-08 09:34:40 INFO  GetUpdatableExercises:65 - Looking for updatedable exercises
+2020-01-08 09:34:40 INFO  GetCourseDetails:40 - Fetching course details
+2020-01-08 09:34:40 INFO  GetCourseDetails:40 - Fetching course details
+2020-01-08 09:35:16 INFO  GetCourseDetails:46 - Successfully got course details
+2020-01-08 09:35:16 INFO  GetCourseDetails:46 - Successfully got course details
+2020-01-08 09:35:16 DEBUG GetUpdatableExercises:80 - Parsing results
+2020-01-08 09:35:16 DEBUG GetUpdatableExercises:80 - Parsing results
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[20/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[20/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[21/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[21/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[22/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[22/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[23/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[23/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[24/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[24/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[25/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[25/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[26/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[26/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[27/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[27/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[28/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[28/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[29/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[29/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[30/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[30/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[31/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[31/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[32/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[32/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[33/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[33/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[34/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[34/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[35/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[35/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[36/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[36/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[37/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[37/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[38/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[38/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[39/40]
+2020-01-08 09:35:16 INFO  Command:87 - Received notification of Parsing downloaded data[39/40]
+2020-01-08 09:35:16 DEBUG GetUpdatableExercises:107 - Parsing done
+2020-01-08 09:35:16 DEBUG GetUpdatableExercises:107 - Parsing done
+2020-01-08 09:35:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:35:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:35:28 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:35:28 INFO  EventStore:27 - Saved {0} events
+2020-01-08 09:35:28 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 09:35:28 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 09:35:28 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 09:35:28 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 09:35:28 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:35:28 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:35:28 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 09:35:28 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 09:35:28 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:35:28 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 09:35:28 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 09:35:28 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 09:35:28 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 09:35:28 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 09:47:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:47:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:53:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:53:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:53:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:53:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:54:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:54:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:54:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:54:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:59:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:59:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:59:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 09:59:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:08:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:08:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:09:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:09:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:09:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:09:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:10:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:22:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:22:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:22:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:22:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:24:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:24:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:24:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:24:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:25:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:25:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:25:24 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:25:24 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:25:24 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:25:24 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:25:24 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:25:24 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:25:24 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:25:24 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:25:24 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:25:24 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:25:24 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:25:24 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:25:24 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:25:24 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:25:24 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:25:24 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:29:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:29:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:29:52 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-08 10:29:52 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-08 10:29:52 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:29:52 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:29:52 INFO  TmcCore:149 - Creating new Submit command
+2020-01-08 10:29:52 INFO  TmcCore:149 - Creating new Submit command
+2020-01-08 10:29:52 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e02_compliment
+2020-01-08 10:29:52 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e02_compliment
+2020-01-08 10:29:52 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:29:52 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:29:52 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:29:52 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:29:52 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:29:52 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:29:52 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-08 10:29:52 WARN  TmcUtil:153 - Failed to submit the exercise
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-08 10:29:54 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-08 10:29:54 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-08 10:35:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:35:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:35:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:35:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:36:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:36:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:36:44 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:36:44 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:36:44 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:36:44 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:36:44 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:36:44 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:36:44 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:36:44 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:36:44 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:36:44 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:36:44 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:36:44 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:36:44 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:36:44 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:36:44 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:36:44 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:37:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:37:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:37:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:37:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:38:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:38:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:38:48 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:38:48 INFO  EventStore:27 - Saved {0} events
+2020-01-08 10:38:48 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:38:48 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 10:38:48 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:38:48 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 10:38:48 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:38:48 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:38:48 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:38:48 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 10:38:48 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:38:48 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 10:38:48 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:38:48 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 10:38:48 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:38:48 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 10:48:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:48:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:48:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:48:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:52:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:52:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:52:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:52:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:54:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:54:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:54:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:54:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:59:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:59:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:59:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 10:59:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:01:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:01:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:01:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:01:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:04:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:04:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:06:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:06:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:06:24 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:06:24 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:06:24 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:06:24 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:06:24 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:06:24 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:06:24 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:24 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:24 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:06:24 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:06:24 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:24 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:24 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:06:24 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:06:24 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:06:24 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:06:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:06:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:06:32 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:06:32 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:06:32 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:06:32 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:06:32 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:06:32 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:06:32 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:32 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:32 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:06:32 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:06:32 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:32 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:06:32 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:06:32 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:06:32 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:06:32 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:07:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:07:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:07:30 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:07:30 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:07:30 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:07:30 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:07:30 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:07:30 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:07:30 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:30 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:30 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:07:30 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:07:30 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:30 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:30 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:07:30 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:07:30 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:07:30 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:07:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:07:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 11:07:36 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:07:36 INFO  EventStore:27 - Saved {0} events
+2020-01-08 11:07:36 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:07:36 INFO  TmcCore:131 - Creating new RunTests command
+2020-01-08 11:07:36 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:07:36 INFO  RunTests:32 - Running tests for exercise part01-e02_compliment
+2020-01-08 11:07:36 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:36 DEBUG RunTests:36 - Determined project path as /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:36 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:07:36 DEBUG RunTests:39 - Calling TMC Langs
+2020-01-08 11:07:36 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:36 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e02_compliment
+2020-01-08 11:07:36 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:07:36 WARN  RunTests:46 - Failed to run tests for project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-08 11:07:36 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 11:07:36 ERROR TmcUtil:188 - Failed to run local tests
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to run tests for project
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:47)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:19)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.runLocalTests(TmcUtil.java:184)
+	at fi.helsinki.cs.tmc.cli.command.RunTestsCommand.run(RunTestsCommand.java:76)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.runTests(TaskExecutorImpl.java:39)
+	at fi.helsinki.cs.tmc.core.commands.RunTests.call(RunTests.java:40)
+	... 8 more
+2020-01-08 23:54:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:54:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:54:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:54:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:57:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:57:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:57:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-08 23:57:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:02:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:07:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:07:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:07:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:07:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:10:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:10:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:10:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:10:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:28:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:28:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:28:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:28:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:36:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:36:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:36:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 00:36:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:04:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:04:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:04:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:04:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:05:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:05:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:05:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:05:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:07:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:07:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:10:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:10:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:11:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:11:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:16:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:18:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:18:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:18:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:18:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:30:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:30:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:30:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:30:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:31:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:33:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:33:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:33:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:33:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:37:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:43:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:43:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:43:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:43:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:46:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:46:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:46:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:46:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:47:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:47:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:47:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:47:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:48:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:48:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:48:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:48:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:49:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:49:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:51:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:51:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:51:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:51:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:54:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:54:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:54:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:54:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:57:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:57:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:57:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 14:57:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:08:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:11:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:11:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:11:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:11:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:24:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:53:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:53:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:53:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:53:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 16:57:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:05:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:08:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:10:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:10:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:10:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:10:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:31:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:41:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:41:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:41:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:41:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:43:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:43:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:43:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:43:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:44:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:44:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:44:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:44:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:46:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:46:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:46:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-09 17:46:42 INFO  EventStore:36 - Loaded {0} events
+                                                                                                                                                                                                                                                2020-01-10 09:07:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:07:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:07:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:07:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:09:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:09:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:09:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:09:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:10:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:10:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:10:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:10:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:12:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:12:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:12:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:12:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:13:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:13:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:13:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:13:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:15:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:16:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:17:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:17:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:17:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:17:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:21:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:21:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:21:55 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-10 09:21:55 WARN  EventSendBuffer:212 - Sending {0} events to {1}
+2020-01-10 09:21:55 INFO  EventStore:27 - Saved {0} events
+2020-01-10 09:21:55 INFO  EventStore:27 - Saved {0} events
+2020-01-10 09:21:55 INFO  TmcCore:149 - Creating new Submit command
+2020-01-10 09:21:55 INFO  TmcCore:149 - Creating new Submit command
+2020-01-10 09:21:55 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e04_multiplication_table
+2020-01-10 09:21:55 INFO  AbstractSubmissionCommand:57 - Submitting exercise part01-e04_multiplication_table
+2020-01-10 09:21:55 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-10 09:21:55 INFO  AbstractSubmissionCommand:49 - Submitting project from path /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-10 09:21:55 INFO  ProjectType:54 - Finding plugin for /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-10 09:21:55 ERROR ProjectType:69 - No suitable language plugin found for project at /home/harrika/hy-data-analysis-with-python-summer-2019/part01-e04_multiplication_table
+2020-01-10 09:21:55 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-10 09:21:55 WARN  AbstractSubmissionCommand:55 - Failed to compress project
+fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+2020-01-10 09:21:55 ERROR TmcUtil:279 - Command failed in tmc-core
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-10 09:21:55 WARN  TmcUtil:153 - Failed to submit the exercise
+fi.helsinki.cs.tmc.core.exceptions.TmcCoreException: Failed to compress project
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:56)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:62)
+	at fi.helsinki.cs.tmc.core.commands.Submit.call(Submit.java:24)
+	at fi.helsinki.cs.tmc.core.utilities.ExceptionTrackingCallable.call(ExceptionTrackingCallable.java:39)
+	at fi.helsinki.cs.tmc.cli.backend.TmcUtil.submitExercise(TmcUtil.java:150)
+	at fi.helsinki.cs.tmc.cli.command.SubmitCommand.run(SubmitCommand.java:133)
+	at fi.helsinki.cs.tmc.cli.core.AbstractCommand.execute(AbstractCommand.java:63)
+	at fi.helsinki.cs.tmc.cli.Application.runCommand(Application.java:102)
+	at fi.helsinki.cs.tmc.cli.Application.run(Application.java:211)
+	at fi.helsinki.cs.tmc.cli.Application.main(Application.java:225)
+Caused by: fi.helsinki.cs.tmc.langs.domain.NoLanguagePluginFoundException: No suitable language plugin found.
+	at fi.helsinki.cs.tmc.langs.util.ProjectType.getProjectType(ProjectType.java:70)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.getLanguagePlugin(TaskExecutorImpl.java:141)
+	at fi.helsinki.cs.tmc.langs.util.TaskExecutorImpl.compressProject(TaskExecutorImpl.java:112)
+	at fi.helsinki.cs.tmc.core.commands.AbstractSubmissionCommand.submitToServer(AbstractSubmissionCommand.java:52)
+	... 9 more
+2020-01-10 09:21:57 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-10 09:21:57 INFO  EventSendBuffer:264 - Sent {0} events successfully to {1}
+2020-01-10 09:47:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:47:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:47:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 09:47:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 10:12:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 10:12:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 10:12:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 10:12:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:01:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:01:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:01:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:01:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:02:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:02:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:02:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 12:02:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:47:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:47:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:47:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:47:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:49:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:49:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:49:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:49:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:50:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:50:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:50:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 13:50:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 14:46:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 14:46:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 14:46:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 14:46:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 15:23:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 15:23:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 15:23:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 15:23:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 16:48:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 16:48:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 16:48:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 16:48:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 17:13:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 17:13:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 17:13:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-10 17:13:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:20:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:20:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:20:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:20:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:21:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 09:22:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:04:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:04:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:04:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:04:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:24:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:25:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:25:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:30:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:30:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:30:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:30:47 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:55:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:55:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:55:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 11:55:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 13:16:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 13:16:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 13:16:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 13:16:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:52:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:52:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:52:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:52:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:59:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:59:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:59:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-11 19:59:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 11:57:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:39:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:44:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:45:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:45:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:45:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:45:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:51:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:34 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:34 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 12:54:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:00:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:00:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:00:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:00:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:10:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:16:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:16:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:16:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:16:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:17:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:18:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:18:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:18:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:18:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:19:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:19:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:19:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:19:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:24:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:24:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:24:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 13:24:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 14:15:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 14:15:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 14:15:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 14:15:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:27 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:18:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:42:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:42:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:42:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:42:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:57:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:57:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:57:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 16:57:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:42:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:42:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:42:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:42:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:44:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:44:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:44:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-12 20:44:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:06:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:06:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:06:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:06:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:08:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:08:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:08:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:08:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:09:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:09:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:09:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:09:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:11:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:11:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:11:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:11:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:13:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:13:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:13:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:13:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:16:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:16:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:16:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:16:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:25:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:25:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:25:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:25:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:31:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:31:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:31:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:31:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:41:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:41:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:41:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:41:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:49:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:49:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:49:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:58:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:58:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:58:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 14:58:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:01:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:01:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:01:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:01:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:02:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:02:54 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:02:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:02:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:05:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:05:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:05:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:05:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:06:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:06:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:06:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:06:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:52 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 15:08:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:14:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:14:29 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:14:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:14:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:20:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:20:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:20:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:20:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:24:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:24:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:24:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 17:24:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:38:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:38:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:38:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:38:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:42:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:42:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:43:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:43:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:44:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:44:39 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:44:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:44:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:45:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:45:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:45:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:45:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:34 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:48:34 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:55:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:55:35 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:55:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:55:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:57:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:57:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:57:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:57:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:58:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:58:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:58:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 18:58:04 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:00:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:00:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:00:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:00:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:03:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:27:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:27:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:27:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 19:27:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:23 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:16:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:18:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:18:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:18:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:18:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:26:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:26:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:26:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:26:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:31:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:31:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:31:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:31:33 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:32:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:32:44 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:32:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:32:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:33:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:33:14 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:33:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-13 22:33:15 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:54:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:54:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:54:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:54:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:55:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:55:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:56:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 09:56:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:00:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:04:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:04:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:04:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:04:17 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:07:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:07:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:07:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:07:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:18:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:18:55 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:18:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:18:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:33:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:33:31 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:33:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:33:32 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:59:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:59:40 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:59:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 10:59:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:06:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:06:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:06:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:06:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:16:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:16:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:16:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-14 11:16:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:36 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 15:59:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 16:01:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 16:01:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 16:01:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 16:01:10 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:09:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:09:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:09:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:09:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:52:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:52:19 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:52:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:52:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:05 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:06 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:13 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-15 19:55:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:23:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:23:58 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:24:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:24:00 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:43:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:43:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:43:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 11:43:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:23:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:23:11 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:23:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:23:12 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:45:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:45:49 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:45:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-16 12:45:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:38:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:38:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:38:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:38:30 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:40:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:40:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:40:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:40:08 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:45:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:45:41 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:45:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 08:45:42 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:01:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:01:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:01:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:01:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:03:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:03:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:03:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:03:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:07:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:07:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:07:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:07:28 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:12:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:12:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:12:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:12:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:16:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:16:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:16:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:16:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:23:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:23:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:23:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 09:23:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:52:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:52:46 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:52:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:52:48 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:53:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:53:07 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:53:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 11:53:09 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:16:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:16:20 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:16:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:16:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:23:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:23:21 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:23:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:23:22 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:26:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:26:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:26:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:26:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:29:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:29:37 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:29:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:29:38 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:31:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:31:02 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:31:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:31:03 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:38:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:38:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:38:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:38:26 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:39:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:39:16 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:39:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:39:18 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:53:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:53:50 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:53:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 12:53:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 13:47:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 13:47:59 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 13:48:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-17 13:48:01 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 16:18:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 16:18:56 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 16:18:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 16:18:57 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 17:38:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 17:38:51 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 17:38:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-18 17:38:53 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:24 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:25 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:43 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:45 INFO  EventStore:36 - Loaded {0} events
+2020-01-19 17:55:45 INFO  EventStore:36 - Loaded {0} events

@@ -1,0 +1,6 @@
+2020/01/13-17:21:14.037 274 Reusing MANIFEST /home/harrika/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/01/13-17:21:14.037 274 Recovering log #51
+2020/01/13-17:21:14.075 274 Reusing old log /home/harrika/.config/chromium/Default/Local Storage/leveldb/000051.log 
+2020/01/13-18:47:22.411 664 Level-0 table #55: started
+2020/01/13-18:47:22.415 664 Level-0 table #55: 17907 bytes OK
+2020/01/13-18:47:22.417 664 Delete type=0 #51

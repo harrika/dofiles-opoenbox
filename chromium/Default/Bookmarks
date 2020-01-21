@@ -1,0 +1,40 @@
+{
+   "checksum": "26b3e14e33f4b2bd2ea9e4edaee12396",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13222898623622268",
+            "guid": "57b1a286-c83e-44a7-82b2-47359fd9df0e",
+            "id": "5",
+            "name": "Customize Xterm, the original and best terminal... - Scarygliders",
+            "type": "url",
+            "url": "https://scarygliders.net/2011/12/01/customize-xterm-the-original-and-best-terminal/"
+         } ],
+         "date_added": "13222897531530063",
+         "date_modified": "13222898623622268",
+         "guid": "00000000-0000-4000-A000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13222897531530108",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13222897531530111",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-A000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
